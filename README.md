@@ -1,4 +1,4 @@
-# easy-erc20-minter
+# Easy ERC20 Token Minter
 A really easy to use by design ERC20 token minter. Anyone really can mint their own token...
 
 Currently deployed to https://prototyping.ethanrushbrook.com/pages/home/minter
