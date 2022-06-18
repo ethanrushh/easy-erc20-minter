@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ERC20 Token Minter</title>
     <link rel="stylesheet" href="style.css">
-	<script defer src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="index.js"></script>
   </head>
   <body>
-    
-  </body>
+    <div class="wrapper">
+      <button id="button1" onclick="connectWallet()">Connect MetaMask</button>
+      <button style="visibility: hidden;" id="button2" onclick="makeRequest()">Mint Token...</button>
+      <p id="doneText">Done</p>
+    </body>
+    </div>
 </html>
